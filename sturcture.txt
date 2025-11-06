@@ -1,0 +1,16 @@
+agri-data-explorer/
+├── 📁 data/
+│   ├── raw/              # Original ICRISAT data (you download)
+│   └── processed/        # Cleaned data (generated)
+├── 📁 etl/
+│   ├── clean_ingest.py   # ⭐ Run this first
+│   └── load_to_sql.py    # ⭐ Run this second
+├── 📁 sql/
+│   ├── schema.sql        # Database structure
+│   └── analysis_queries.sql  # 10 business questions
+├── 📁 analysis/
+│   └── comprehensive_eda.py  # ⭐ Generate all visualizations
+├── 📁 powerbi/
+│   └── AgriDataExplorer.pbix  # Dashboard
+└── 📁 docs/
+    └── README.md         # Full documentation
